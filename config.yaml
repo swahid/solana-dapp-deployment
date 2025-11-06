@@ -1,0 +1,68 @@
+# ================================
+# Solana dApp Store Config
+# ================================
+
+# ------------------------
+# 1. Publisher Information
+# ------------------------
+publisher:
+  name: "Money Manager"
+  contact_email: "wahid.saurav@gmail.com"
+  website: "https://moneyio.app/"
+  privacy_policy_url: "https://moneyio.app/privacy-policy"
+  license_url: "https://moneyio.app/terms-of-service"
+  copyright: "© 2025 Money IO. All rights reserved."
+  description: "Money Manager - Your Complete Personal Finance Solution"
+  publisher_nft_address: ""  # Leave blank; CLI will fill in when you mint Publisher NFT
+
+# ------------------------
+# 2. App Metadata
+# ------------------------
+app:
+  name: "Money Manager"
+  package_id: "com.moneymanager.app"     # Must match your Android app's packageId
+  short_description: "Track your income, expenses, and savings efficiently."
+  long_description: |
+    Money Manager helps users track income, expenses, and manage budgets easily.
+    Simple, secure, and intuitive interface built with modern web technologies.
+  categories:
+    - Finance
+    - Productivity
+  banner_image: "./assets/banner.png"         # 1200x600 px
+  icon_image: "./assets/icon.png"             # 512x512 px
+  screenshots:
+    - "./assets/screenshot1.png"
+    - "./assets/screenshot2.png"
+    - "./assets/screenshot3.png"
+    - "./assets/screenshot4.png"
+  website: "https://money-manager.app"
+  app_nft_address: ""  # Leave blank; CLI fills in after 'create app'
+
+# ------------------------
+# 3. Release Information
+# ------------------------
+release:
+  version_name: "1.0.0"
+  version_code: 1
+  changelog: "Initial release for Solana dApp Store."
+  release_notes_url: "https://money-manager.app/release-notes"
+  apk_file: "./build/money-manager-release.apk"
+  compatible_devices:
+    - "Android 10+"
+  sdk_version: "35"      # Target SDK version
+  release_nft_address: ""  # Leave blank; filled by CLI
+  release_date: "2025-11-07"
+
+# ------------------------
+# 4. Blockchain & Network Settings
+# ------------------------
+blockchain:
+  network: "mainnet-beta"      # or "devnet" for testing
+  rpc_url: "https://api.mainnet-beta.solana.com"
+
+# ------------------------
+# 5. Legal Confirmation
+# ------------------------
+legal:
+  complies_with_solana_dapp_store_policies: true
+  is_requestor_authorized: true
