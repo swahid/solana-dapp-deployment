@@ -1,22 +1,20 @@
 publisher:
-  name: "Saurav Wahid"
-  website: "https://moneyio.app"
-  email: "wahid.saurav@gmail.com"
-  support_email: "wahid.saurav@gmail.com"
-
+  name: Saurav Wahid
+  website: https://moneyio.app
+  email: wahid.saurav@gmail.com
+  support_email: wahid.saurav@gmail.com
 app:
-  name: "Money Manager"
-  address: ''
-  android_package: "com.moneymanager.app"
+  name: Money Manager
+  address: 6uvMkouNXVWeZjZxNfJHKZccpaLcVUHKBVHbkkPm1pQX
+  android_package: com.moneymanager.app
   urls:
-    license_url: "https://moneyio.app/terms-of-service"
-    copyright_url: "https://moneyio.app/terms-of-service"
-    privacy_policy_url: "https://moneyio.app/privacy-policy"
-    website: "https://moneyio.app"
+    license_url: https://moneyio.app/terms-of-service
+    copyright_url: https://moneyio.app/terms-of-service
+    privacy_policy_url: https://moneyio.app/privacy-policy
+    website: https://moneyio.app
   media:
     - purpose: icon
       uri: ./media/icon.png
-
 release:
   address: ''
   media:
@@ -39,23 +37,22 @@ release:
       uri: ./files/money-manager-release.apk
   catalog:
     en-US:
-      name: "Money Manager"
-      short_description: "Track your income, expenses, and savings efficiently."
+      name: Money Manager
+      short_description: Track your money efficiently.
       long_description: |
         Money Manager helps users track income, expenses, and manage budgets easily.
         Simple, secure, and intuitive interface built with modern web technologies.
-      new_in_version: "Initial release to dApp Store"
-      saga_features: "Budget tracking, expense categorization, and income management"
+      new_in_version: Initial release to dApp Store
+      saga_features: Budget tracking, expense categorization, and money management
   android_details:
     locales:
       - en-US
-
 solana_mobile_dapp_publisher_portal:
-  google_store_package: "com.moneymanager.app"
+  google_store_package: com.moneymanager.app
   testing_instructions: |
     1. Install the APK on a Solana Mobile device.
     2. Test login, budget creation, and expense tracking.
     3. Verify that notifications and reports work correctly.
   alpha_testers:
-    - address: "DM9rtV2YbjSqr7kCjw55EHpFbSb7rStvXMq4xPqLP3df" # Add if you have tester Solana addresses
-      comment: "saurav"
+    - address: DM9rtV2YbjSqr7kCjw55EHpFbSb7rStvXMq4xPqLP3df
+      comment: saurav
