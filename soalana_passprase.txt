@@ -16,3 +16,20 @@ pubkey: DM9rtV2YbjSqr7kCjw55EHpFbSb7rStvXMq4xPqLP3df
 Save this seed phrase and your BIP39 passphrase to recover your new keypair:
 zebra milk hover bus confirm road price toilet foil run jazz cloth
 ==================================================================
+
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none):
+
+Wrote new keypair to /home/saurav/.config/solana/devnet.json
+================================================================================
+pubkey: A9ctVrbGDoyA6f4kAtcfZzcdSiYMan9RhHvtYstF15UE
+================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+grape burden question recycle assist kind nurse nut cement draw suggest mushroom
+================================================================================
